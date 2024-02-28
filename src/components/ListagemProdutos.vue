@@ -35,6 +35,15 @@ const formatPrice = (price) => `R$ ${price.toFixed(2).replace('.', ',')}`;
   margin: auto;
   padding: 1rem 0;
 }
+
+.card:hover{
+  width: 17rem;
+  height: 28rem;
+  transition: 0.5s;
+  background-color: rgba(146, 226, 240, 0.555);
+  display: block;
+  
+}
 .card {
   display: flex;
   align-items: center;
@@ -47,6 +56,7 @@ const formatPrice = (price) => `R$ ${price.toFixed(2).replace('.', ',')}`;
   border-radius: 10px;
   margin: auto;
   overflow: hidden;
+  
 }
 .card--avatar {
   width: 100%;
